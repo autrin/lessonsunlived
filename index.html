@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autrin - Software Engineer & AI Researcher</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Share+Tech+Mono&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="matrix-bg"></div>
+
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-brain"></i>
+                <h1>Lessons Unlived</h1>
+            </div>
+            <nav class="nav">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#blog" class="nav-link">Blog</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2 class="glitch" data-text="Autrin">Autrin</h2>
+                    <p class="hero-subtitle">Software Engineer & AI Researcher</p>
+                    <div class="hero-description">
+                        <p>Passionate about building technology that serves human dignity and promotes freedom.
+                            Exploring censorship-resistant architectures, AI/ML, and distributed systems. From Iran to
+                            America, using code to advance human rights.</p>
+                    </div>
+                    <div class="cta-buttons">
+                        <button class="btn btn-primary" onclick="scrollToSection('blog')">
+                            <i class="fas fa-book-open"></i>
+                            Read Lessons
+                        </button>
+                        <button class="btn btn-secondary" onclick="scrollToSection('about')">
+                            <i class="fas fa-info-circle"></i>
+                            Learn More
+                        </button>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="circuit-board">
+                        <div class="circuit-line"></div>
+                        <div class="circuit-line"></div>
+                        <div class="circuit-line"></div>
+                        <div class="node"></div>
+                        <div class="node"></div>
+                        <div class="node"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog" class="blog-section">
+            <div class="container">
+                <h2 class="section-title">Latest Posts</h2>
+                <div class="blog-grid" id="blogGrid">
+                    <!-- Blog posts will be dynamically loaded here -->
+                </div>
+                <div class="load-more">
+                    <button class="btn btn-outline" id="loadMoreBtn">
+                        <i class="fas fa-plus"></i>
+                        Load More Posts
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-robot"></i>
+                            <h3>8-Puzzle Solver</h3>
+                        </div>
+                        <p>AI-based solver for the classic 8-puzzle problem implementing BFS, IDS, and A* with Manhattan
+                            Distance & Linear Conflict heuristics. Achieves 60x speedup through multiprocessing.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/autrin/8-puzzle" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-chess"></i>
+                            <h3>Gomoku AI Game</h3>
+                        </div>
+                        <p>Intelligent game-playing agent for Five-in-a-Row featuring Alpha-Beta pruning with custom
+                            evaluation functions. Advanced AI algorithms with threat detection and pattern recognition.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://github.com/autrin/Gomoku" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-link"></i>
+                            <h3>Toy Blockchain</h3>
+                        </div>
+                        <p>Educational implementation of blockchain technology in Python, demonstrating core concepts
+                            like blocks, hashing, and distributed consensus mechanisms.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/autrin/toy-blockchain" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-robot"></i>
+                            <h3>Robotic Chess Player</h3>
+                        </div>
+                        <p>Autonomous robotic system using UR10e robot arm with computer vision and Stockfish chess
+                            engine. Features AprilTag detection, adaptive difficulty, and safe movement patterns.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/autrin/robotic-chess-player" target="_blank"
+                                class="project-link">
+                                <i class="fab fa-github"></i>
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-mobile-alt"></i>
+                            <h3>ISU Pulse</h3>
+                        </div>
+                        <p>Comprehensive Android app for Iowa State University students and teachers. Features
+                            schedules, real-time chat, AI integration, weather, and friend suggestions to enhance campus
+                            experience.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/autrin/ISU_Pulse" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-database"></i>
+                            <h3>University Database</h3>
+                        </div>
+                        <p>Relational database system for university management implemented in Java and SQL using JDBC.
+                            Demonstrates database design principles and connection management.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/autrin/UniversityDatabase" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-network-wired"></i>
+                            <h3>Decentralized Web Lab</h3>
+                        </div>
+                        <p>A hands-on sandbox exploring libp2p, IPFS, simple mesh and more. Personal learning playground
+                            for peer-to-peer and content-addressed protocols in Python and Rust.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/autrin/decentralized-web-lab" target="_blank"
+                                class="project-link">
+                                <i class="fab fa-github"></i>
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-gamepad"></i>
+                            <h3>Pokeman Game</h3>
+                        </div>
+                        <p>Console-based adventure game in C/C++ featuring dynamic world exploration, creature
+                            collection, turn-based battles, and inventory management with terminal graphics.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/autrin/Pokeman" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="about-content">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="about-text">
+                        <p>Hi, I'm Autrin, a software engineer and AI researcher passionate about building technology
+                            that serves human dignity and promotes freedom. I'm a lifelong learner, constantly excited
+                            about discovering new knowledge and pushing the boundaries of what I can understand and
+                            build.</p>
+                        <p>As someone who's experienced both censorship and the power of technology, I believe software
+                            engineers have a moral responsibility to use their skills for good. My work explores how
+                            code can serve human dignity, protect privacy, resist oppression, and promote humanist
+                            values.</p>
+                    </div>
+                    <div class="philosophy-grid">
+                        <div class="philosophy-card">
+                            <i class="fas fa-network-wired"></i>
+                            <h3>Decentralization</h3>
+                            <p>Building systems that can't be controlled by any single authority</p>
+                        </div>
+                        <div class="philosophy-card">
+                            <i class="fas fa-user-shield"></i>
+                            <h3>Privacy</h3>
+                            <p>Protecting individual rights and digital autonomy</p>
+                        </div>
+                        <div class="philosophy-card">
+                            <i class="fas fa-code-branch"></i>
+                            <h3>Open Source</h3>
+                            <p>Transparency, collaboration, and empowering communities</p>
+                        </div>
+                        <div class="philosophy-card">
+                            <i class="fas fa-leaf"></i>
+                            <h3>Compassion</h3>
+                            <p>Building technology that serves all beings</p>
+                        </div>
+                        <div class="philosophy-card">
+                            <i class="fas fa-robot"></i>
+                            <h3>AI Ethics</h3>
+                            <p>Responsible AI development and algorithmic fairness</p>
+                        </div>
+                        <div class="philosophy-card">
+                            <i class="fas fa-atom"></i>
+                            <h3>Evidence-Based</h3>
+                            <p>Data-driven design and scientific methodology</p>
+                        </div>
+                        <div class="philosophy-card">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h3>Lifelong Learning</h3>
+                            <p>Constant curiosity and intellectual growth</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="section-title">Connect & Contribute</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Connect & Collaborate</h3>
+                        <p>Interested in decentralized technology, human rights, or open source projects? Let's connect!
+                            I enjoy discussing ideas with fellow engineers and activists passionate about
+                            censorship-resistant systems.</p>
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:autrinhakimi@gmail.com">autrinhakimi@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message, Project Ideas, or Collaboration Proposal" rows="5"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-brain"></i>
+                    <span>Lessons Unlived</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#blog">Blog</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <!-- <a href="#" class="social-link"><i class="fab fa-twitter"></i></a> -->
+                    <a href="https://github.com/autrin" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/autrin" class="social-link"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Lessons Unlived. Building technology that serves human dignity.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Blog Post Modal -->
+    <div id="blogModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalContent"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
