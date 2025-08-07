@@ -46,21 +46,21 @@ Each post explores how code can serve freedom, protect privacy, and resist oppre
 
 ## 🚀 Projects
 
-The website showcases several key projects from my GitHub portfolio:
+The website showcases several key projects from my GitHub portfolio, demonstrating both full-stack development skills and specialized research interests:
 
-1. **Decentralized Web Lab** - A hands-on sandbox exploring libp2p, IPFS, simple mesh and more. Personal learning playground for peer-to-peer and content-addressed protocols in Python and Rust.
+1. **ISU Pulse** - Comprehensive Android app for Iowa State University students and teachers. Features schedules, real-time chat, AI integration, weather, and friend suggestions to enhance campus experience. Built with modern mobile development practices and real-time data synchronization.
 
-2. **8-Puzzle Solver** - AI-based solver for the classic 8-puzzle problem implementing BFS, IDS, and A* with Manhattan Distance & Linear Conflict heuristics. Achieves 60x speedup through multiprocessing.
+2. **University Database** - Relational database system for university management implemented in Java and SQL using JDBC. Demonstrates database design principles, connection management, and full-stack application development.
 
-3. **Gomoku AI Game** - Intelligent game-playing agent for Five-in-a-Row featuring Alpha-Beta pruning with custom evaluation functions. Advanced AI algorithms with threat detection and pattern recognition.
+3. **Decentralized Web Lab** - A hands-on sandbox exploring libp2p, IPFS, simple mesh and more. Personal learning playground for peer-to-peer and content-addressed protocols in Python and Rust.
 
-4. **Toy Blockchain** - Educational implementation of blockchain technology in Python, demonstrating core concepts like blocks, hashing, and distributed consensus mechanisms.
+4. **8-Puzzle Solver** - AI-based solver for the classic 8-puzzle problem implementing BFS, IDS, and A* with Manhattan Distance & Linear Conflict heuristics. Achieves 60x speedup through multiprocessing.
 
-5. **Robotic Chess Player** - Autonomous robotic system using UR10e robot arm with computer vision and Stockfish chess engine. Features AprilTag detection, adaptive difficulty, and safe movement patterns.
+5. **Gomoku AI Game** - Intelligent game-playing agent for Five-in-a-Row featuring Alpha-Beta pruning with custom evaluation functions. Advanced AI algorithms with threat detection and pattern recognition.
 
-6. **ISU Pulse** - Comprehensive Android app for Iowa State University students and teachers. Features schedules, real-time chat, AI integration, weather, and friend suggestions to enhance campus experience.
+6. **Toy Blockchain** - Educational implementation of blockchain technology in Python, demonstrating core concepts like blocks, hashing, and distributed consensus mechanisms.
 
-7. **University Database** - Relational database system for university management implemented in Java and SQL using JDBC. Demonstrates database design principles and connection management.
+7. **Robotic Chess Player** - Autonomous robotic system using UR10e robot arm with computer vision and Stockfish chess engine. Features AprilTag detection, adaptive difficulty, and safe movement patterns.
 
 8. **Pokeman Game** - Console-based adventure game in C/C++ featuring dynamic world exploration, creature collection, turn-based battles, and inventory management with terminal graphics.
 
@@ -128,15 +128,16 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 🌍 About the Project
 
-This portfolio website showcases my work in software engineering and AI research, with a focus on building technology that serves human rights and freedom. As someone who experienced censorship in Iran and now works as a software engineer in America, I believe technologists have a moral responsibility to use their skills for good.
+This portfolio website showcases my work as a full-stack software engineer and AI researcher, with expertise in web development, distributed systems, and ethical technology. As someone who experienced censorship in Iran and now works as a software engineer in America, I believe technologists have a moral responsibility to use their skills for good.
 
-The dark, geeky aesthetic reflects the intersection of technology and activism, reminding us that every line of code we write either supports freedom or enables control. This project explores how decentralized systems, privacy-preserving technologies, and open source software can build a more just and compassionate world.
+The dark, geeky aesthetic reflects the intersection of technology and activism, reminding us that every line of code we write either supports freedom or enables control. This project demonstrates both practical software engineering skills and specialized research interests, showing how modern web technologies, AI/ML, and decentralized systems can build a more just and compassionate world.
 
 ### About Autrin
-- **Background**: Software Engineer and AI Researcher
+- **Background**: Full-Stack Software Engineer and AI Researcher
 - **Education**: Computer Science major, graduated May 2025
-- **Interests**: AI/ML, distributed systems, human rights, open source, lifelong learning, robotics, data science
-- **Current Focus**: AI research and building ethical technology solutions
+- **Technical Skills**: Web Development (React, Node.js, Python), AI/ML, Distributed Systems, Cloud Platforms (AWS, Azure), Databases (SQL, NoSQL), DevOps
+- **Interests**: Full-stack development, AI/ML, distributed systems, human rights, open source, lifelong learning, robotics, data science
+- **Current Focus**: Building scalable web applications, AI research, and ethical technology solutions
 - **Values**: Privacy, freedom, compassion, evidence-based design, intellectual curiosity, and using technology for social good
 
 ---
