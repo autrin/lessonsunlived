@@ -31,7 +31,7 @@ const blogPosts = [
             <h3>What I'm Learning</h3>
             <p>I'm deeply interested in how ethical technology can be built using modern systems languages like Rust, Python, and Java. These languages offer the performance and safety needed for systems programming, while their robust ecosystems make them perfect for building secure, scalable applications.</p>
             
-            <p>I'm studying everything from AI/ML systems to distributed computing, from robotics to data science. The goal is to understand how to build systems that are:</p>
+            <p>I'm studying everything from AI/ML systems and data science to distributed computing. The goal is to understand how to build systems that are:</p>
             <ul>
                 <li>Resistant to censorship and surveillance</li>
                 <li>Privacy-preserving by design</li>
@@ -225,7 +225,7 @@ const blogPosts = [
             </ul>
             
             <h3>The Never-Ending Journey</h3>
-            <p>What excites me most about being a learner is that the journey never ends. There's always more to discover, more to understand, more to create. Even as I graduate with my computer science degree, I know this is just the beginning.</p>
+            <p>What excites me most about being a learner is that the journey never ends. There's always more to discover, more to understand, more to create. Even when I graduated with my computer science degree, I knew this was just the beginning.</p>
             
             <p>I'm already planning my next learning adventures:</p>
             <ul>
