@@ -404,9 +404,9 @@ function handleContactSubmit(e) {
 
   // Get form data
   const formData = new FormData(e.target);
-  const name = e.target.querySelector('input[type="text"]').value;
-  const email = e.target.querySelector('input[type="email"]').value;
-  const message = e.target.querySelector('textarea').value;
+  const name = formData.get('name');
+  const email = formData.get('email');
+  const message = formData.get('message');
 
   // Simple validation
   if (!name || !email || !message) {
@@ -414,9 +414,28 @@ function handleContactSubmit(e) {
     return;
   }
 
-  // Simulate form submission
-  showNotification('Thank you for your message! I\'ll get back to you soon.', 'success');
-  e.target.reset();
+  // Show sending notification
+  showNotification('Sending message...', 'info');
+
+  // Submit the form to Formspree
+  fetch(e.target.action, {
+    method: 'POST',
+    body: formData,
+    headers: {
+      'Accept': 'application/json'
+    }
+  })
+    .then(response => {
+      if (response.ok) {
+        showNotification('Message sent successfully! I\'ll get back to you soon.', 'success');
+        e.target.reset();
+      } else {
+        showNotification('Failed to send message. Please try again.', 'error');
+      }
+    })
+    .catch(error => {
+      showNotification('Failed to send message. Please try again.', 'error');
+    });
 }
 
 function showNotification(message, type = 'info') {
