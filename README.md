@@ -119,8 +119,8 @@ The dark, geeky aesthetic reflects the intersection of technology and activism, 
 - **Background**: Full-Stack Software Engineer and AI Researcher
 - **Education**: Computer Science major, graduated May 2025
 - **Technical Skills**: Web Development (React, Python), AI/ML, Distributed Systems, Cloud Platforms (Azure), Databases (SQL, NoSQL), DevOps
-- **Interests**: Decentralized systems, Full-stack development, AI/ML, distributed systems, human rights, open source, lifelong learning, robotics, data science
-- **Current Focus**: Building scalable web applications, AI research, and ethical technology solutions
+- **Interests**: Decentralized systems, web3, distributed systems, Full-stack development, AI/ML, human rights, open source, lifelong learning, robotics, data science
+- **Current Focus**: Building scalable web applications, AI research, and ethical technology solutions such as censorship-resistant systems, and decentralized networks.
 - **Values**: Privacy, freedom, compassion, evidence-based design, intellectual curiosity, and using technology for social good
 
 ---
