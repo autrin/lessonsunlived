@@ -82,74 +82,24 @@ const blogPosts = [
   },
   {
     id: 3,
-    title: "Compassionate Computing: Building Technology for All",
+    title: "Veganism and Sustainable Technology: Building for All Beings",
     date: "2025-08-02",
-    excerpt: "How ethical principles influence my approach to software engineering and creating technology that serves all beings, not just humans.",
+    excerpt: "How my commitment to veganism and reducing harm to all beings influences my approach to software engineering and building technology that serves everyone, not just humans.",
     content: `
-                                     <h2>Compassionate Computing: Building Technology for All</h2>
-            <p class="post-meta">August 2, 2025 • Ethics • Compassion • Software Engineering</p>
+                                     <h2>Veganism and Sustainable Technology: Building for All Beings</h2>
+            <p class="post-meta">August 2, 2025 • Veganism • Ethics • Software Engineering • Sustainability</p>
             
-            <p>Ethical principles aren't just about personal choices, they're about how I live, how I think, and how I approach every decision in my life, including the code I write. At their core, these principles are about reducing harm and promoting compassion. These values should guide everything we do, including the technology we create.</p>
+            <p>My commitment to veganism isn't just about what I eat, it's about how I think about technology, ethics, and the world. When I write code, I carry the same principles of reducing harm and promoting compassion that guide my approach to life. This means building technology that serves all beings, not just humans.</p>
             
-            <h3>Compassionate Computing</h3>
-            <p>When I write software, I think about who it serves and who it might harm. Does this algorithm perpetuate bias? Does this system enable surveillance? Does this platform profit from exploitation? These aren't just technical questions, they're ethical ones.</p>
+            <h3>Technology for All Beings</h3>
+            <p>When I design software systems, I think about who they serve and who they might harm. Does this algorithm perpetuate bias against marginalized communities? Does this system enable surveillance that could be used to target vulnerable groups? Does this platform profit from exploitation? These aren't just technical questions, they're ethical ones.</p>
             
-            <p>Just as ethical principles challenge us to consider the impact of our choices on others, compassionate computing challenges us to consider the impact of our code on people, communities, and the environment.</p>
-            
-            <h3>Open Source and Accessibility</h3>
-            <p>Ethical principles taught me that accessibility matters. If ethical choices are expensive, difficult, or inconvenient, most people won't make them. The same principle applies to software.</p>
-            
-            <p>This is why I'm passionate about open source, it makes powerful tools accessible to everyone, regardless of their economic status or geographic location. It's the digital equivalent of making ethical technology available and affordable to everyone.</p>
-            
-            <h3>Decentralization and Freedom</h3>
-            <p>Ethical principles are about rejecting systems of exploitation and domination. Decentralized technology is about the same thing, rejecting centralized control and creating systems that empower individuals and communities.</p>
-            
-            <p>When I work on decentralized networks, I'm not just solving technical problems, I'm building infrastructure for a more just and compassionate world. A world where people can communicate freely, organize effectively, and resist oppression.</p>
-            
-            <h3>Environmental Impact</h3>
-            <p>Ethical principles also include environmental sustainability. The same concern drives my interest in efficient, sustainable computing. How can we build systems that use less energy? How can we create technology that doesn't contribute to climate change?</p>
-            
-            <p>This is why I'm learning about systems programming in Rust, Python, and Java, they offer the performance needed to build efficient, resource-conscious applications. Every watt of electricity saved is a small victory for the planet.</p>
-            
-            <h3>What I'm Learning</h3>
-            <p>All these interests come together in my fascination with AI/ML systems, distributed computing, robotics, and data science that are accessible, efficient, and ethical. It's a vision for the kind of world I want to live in.</p>
-            
-            <p><strong>The principle:</strong> Ethics isn't something you do on the side, it's something that should guide every decision you make, including the code you write. Build technology that makes the world better for everyone.</p>
-        `,
-    tags: ["Ethics", "Compassion", "Software Engineering", "Sustainability"]
-  },
-  {
-    id: 4,
-    title: "Ethical Principles as a Foundation for Technology",
-    date: "2025-07-29",
-    excerpt: "How ethical principles shape my approach to software engineering and building technology that serves all beings, not just humans.",
-    content: `
-                                     <h2>Ethical Principles as a Foundation for Technology</h2>
-            <p class="post-meta">July 29, 2025 • Ethics • Technology • Software Engineering</p>
-            
-            <p>Ethical principles aren't just about personal choices, they're the foundation of how I think about technology, ethics, and the world. When I write code, I carry the same principles of compassion, harm reduction, and respect for all beings that guide my approach to life.</p>
-            
-            <h3>The Ethical Perspective on Technology</h3>
-            <p>Ethical principles taught me to question systems of exploitation and to recognize that every choice has consequences. This perspective fundamentally shapes how I approach software engineering. When I design systems, I ask: Who does this serve? Who might it harm? How does it affect the most vulnerable?</p>
-            
-            <p>Just as ethical principles challenge us to consider the impact of our choices on others, the environment, and human workers, ethical technology challenges us to consider the impact of our code on people, communities, and the planet.</p>
-            
-            <h3>Compassionate Computing</h3>
-            <p>My ethical principles lead me to practice what I call "compassionate computing." This means building technology that:</p>
-            <ul>
-                <li><strong>Reduces harm:</strong> Systems that don't exploit users, workers, or the environment</li>
-                <li><strong>Promotes accessibility:</strong> Technology that serves everyone, not just the privileged</li>
-                <li><strong>Respects privacy:</strong> Tools that protect individual autonomy and dignity</li>
-                <li><strong>Supports sustainability:</strong> Efficient systems that minimize environmental impact</li>
-            </ul>
-            
-            <h3>Ethics and Open Source</h3>
-            <p>Ethical principles and open source share core values: transparency, accessibility, and community. Just as ethical principles make good choices available to everyone, open source makes powerful technology accessible to all. Both movements challenge systems of control and exploitation.</p>
-            
-            <p>When I contribute to open source projects, I'm not just sharing code, I'm sharing the same values that guide my ethical approach: cooperation over competition, transparency over secrecy, and accessibility over exclusivity.</p>
+            <p>Just as veganism challenges us to consider the impact of our choices on all beings, compassionate computing challenges us to consider the impact of our code on people, communities, animals, and the environment.</p>
             
             <h3>Environmental Impact of Technology</h3>
-            <p>Ethical principles made me acutely aware of environmental issues. This awareness extends to my work as a software engineer. Every algorithm, every data center, every device has an environmental cost. I'm committed to building systems that are:</p>
+            <p>Veganism made me acutely aware of environmental issues and the interconnectedness of all life. This awareness extends to my work as a software engineer. Every algorithm, every data center, every device has an environmental cost that affects all beings on this planet.</p>
+            
+            <p>I'm committed to building systems that are:</p>
             <ul>
                 <li><strong>Energy efficient:</strong> Optimized code that uses fewer computational resources</li>
                 <li><strong>Sustainable:</strong> Systems designed with environmental impact in mind</li>
@@ -157,17 +107,73 @@ const blogPosts = [
                 <li><strong>Repairable:</strong> Systems that can be maintained and upgraded rather than replaced</li>
             </ul>
             
-            <h3>Ethics and Decentralization</h3>
-            <p>Ethical principles are about rejecting centralized systems of exploitation, corporate control, surveillance capitalism, and the commodification of people. Similarly, decentralized technology rejects centralized systems of control and surveillance.</p>
+            <h3>Accessibility and Inclusion</h3>
+            <p>Veganism taught me that accessibility matters. If ethical choices are expensive, difficult, or inconvenient, most people won't make them. The same principle applies to software.</p>
             
-            <p>My work on decentralized networks is inspired by the same principles that guide my ethical approach: autonomy, self-determination, and resistance to systems of domination. Both movements seek to create alternatives to exploitative centralized systems.</p>
+            <p>This is why I'm passionate about open source, it makes powerful tools accessible to everyone, regardless of their economic status or geographic location. It's the digital equivalent of making ethical technology available and affordable to everyone.</p>
+            
+            <h3>Decentralization and Freedom</h3>
+            <p>Veganism is about rejecting systems of exploitation and domination. Decentralized technology is about the same thing, rejecting centralized control and creating systems that empower individuals and communities.</p>
+            
+            <p>When I work on decentralized networks, I'm not just solving technical problems, I'm building infrastructure for a more just and compassionate world. A world where people can communicate freely, organize effectively, and resist oppression.</p>
+            
+            <h3>What I'm Learning</h3>
+            <p>All these interests come together in my fascination with AI/ML systems, distributed computing, and data science that are accessible, efficient, and ethical. It's a vision for the kind of world I want to live in - one where technology serves all beings, not just the privileged few.</p>
+            
+            <p><strong>The principle:</strong> Veganism isn't just a personal choice, it's a comprehensive framework that can guide every aspect of life, including technology development. Build systems that reflect your commitment to compassion, sustainability, and justice for all beings.</p>
+        `,
+    tags: ["Veganism", "Ethics", "Software Engineering", "Sustainability"]
+  },
+  {
+    id: 4,
+    title: "Feminism and Inclusive Technology: Building for Everyone",
+    date: "2025-07-29",
+    excerpt: "How feminist principles and advocacy for marginalized communities shape my approach to software engineering and building technology that serves everyone, not just the privileged few.",
+    content: `
+                                     <h2>Feminism and Inclusive Technology: Building for Everyone</h2>
+            <p class="post-meta">July 29, 2025 • Feminism • Inclusion • Software Engineering • Human Rights</p>
+            
+            <p>My commitment to feminism isn't just about gender equality, it's about recognizing and challenging all systems of oppression and privilege. When I write code, I carry the same principles of inclusion, equity, and justice that guide my approach to life. This means building technology that serves everyone, not just the privileged few.</p>
+            
+            <h3>Technology and Power Structures</h3>
+            <p>Feminism taught me to question power structures and recognize how technology can reinforce or challenge them. When I design systems, I ask: Who does this serve? Who might it harm? How does it affect marginalized communities? How does it perpetuate or challenge existing inequalities?</p>
+            
+            <p>Around the world, I've seen firsthand how technology is used to control and surveil people. The same surveillance technologies are used to target marginalized communities, including women, people of color, LGBTQ+ individuals, and political dissidents. This is why I'm passionate about building systems that empower rather than oppress.</p>
+            
+            <h3>Inclusive Design Principles</h3>
+            <p>My feminist perspective leads me to practice inclusive design. This means building technology that:</p>
+            <ul>
+                <li><strong>Challenges oppressive structures:</strong> Technology that empowers marginalized communities</li>
+                <li><strong>Promotes accessibility:</strong> Systems that work for everyone, regardless of background or ability</li>
+                <li><strong>Resists bias:</strong> Tools that actively work against algorithmic discrimination</li>
+                <li><strong>Amplifies voices:</strong> Platforms that give space to those often silenced</li>
+            </ul>
+            
+            <h3>Advocacy Through Technology</h3>
+            <p>Feminism and technology share a common goal: creating spaces where everyone can thrive. Just as feminism challenges patriarchal systems, inclusive technology challenges systems of digital exclusion and surveillance.</p>
+            
+            <p>When I work on privacy-preserving technologies, decentralized networks, and open source projects, I'm not just building tools, I'm creating infrastructure for advocacy and resistance. Technology can be a powerful force for social change when designed with inclusion in mind.</p>
+            
+            <h3>The Ethics of Algorithmic Bias</h3>
+            <p>Feminist analysis reveals how algorithms can perpetuate bias and discrimination. Facial recognition systems that fail to recognize certain groups, hiring algorithms that favor certain demographics, social media algorithms that amplify harmful content - these aren't bugs, they're features of systems designed without inclusive principles.</p>
+            
+            <p>This is why I'm committed to building technology that actively works against bias, not just claims to be neutral. Neutrality in the face of oppression is complicity.</p>
+            
+            <h3>Compassionate Design</h3>
+            <p>My feminist commitment leads me to focus on well-being and agency for all beings who can suffer. I don't build systems that serve abstract principles or authorities, I build systems that serve life. This means prioritizing:</p>
+            <ul>
+                <li><strong>Autonomy and dignity:</strong> Technology that gives beings control over their own lives</li>
+                <li><strong>Community building:</strong> Tools that foster connection and support</li>
+                <li><strong>Inclusive values:</strong> Systems that work for everyone, regardless of background</li>
+                <li><strong>Compassionate ethics:</strong> Technology that respects and enhances the worth of all beings</li>
+            </ul>
             
             <h3>What I'm Building</h3>
-            <p>AI/ML systems, distributed computing platforms, and robotics applications can embody ethical principles by being non-exploitative, accessible, sustainable, and compassionate, designed with the well-being of all users in mind.</p>
+            <p>AI/ML systems, distributed computing platforms, and privacy-preserving technologies can embody feminist principles. They can be designed to resist bias and control, to protect the privacy of marginalized communities, and to serve human needs rather than corporate or governmental interests.</p>
             
-            <p><strong>The principle:</strong> Ethics isn't just a personal choice, it's a comprehensive framework that can guide every aspect of life, including technology development. Build systems that reflect your commitment to compassion, sustainability, and justice for all beings.</p>
+            <p><strong>The principle:</strong> Feminism isn't just about gender, it's about justice for all marginalized communities. Build technology that reflects your commitment to inclusion, equity, and human dignity. Don't just write code, write code that makes the world better for everyone.</p>
         `,
-    tags: ["Ethics", "Technology", "Software Engineering", "Sustainability"]
+    tags: ["Feminism", "Inclusion", "Software Engineering", "Human Rights"]
   },
   {
     id: 5,
@@ -241,54 +247,54 @@ const blogPosts = [
   },
   {
     id: 6,
-    title: "Fairness, Reason, and the Ethics of Technology",
+    title: "Secular Humanism and Evidence-Based Technology",
     date: "2025-07-25",
-    excerpt: "How my commitment to fairness and reason shapes my approach to software engineering and building technology that serves human dignity, not bias.",
+    excerpt: "How my commitment to secular humanism, reason, and evidence-based thinking shapes my approach to software engineering and building technology that serves human dignity.",
     content: `
-                                     <h2>Fairness, Reason, and the Ethics of Technology</h2>
-            <p class="post-meta">July 25, 2025 • Fairness • Ethics • Software Engineering</p>
+                                     <h2>Secular Humanism and Evidence-Based Technology</h2>
+            <p class="post-meta">July 25, 2025 • Secular Humanism • Reason • Software Engineering • Evidence-Based Design</p>
             
-            <p>As a software engineer committed to fairness and reason, I believe that technology should serve human dignity and evidence-based decision making, not perpetuate systems of oppression or bias. My commitment to fairness and reason isn't separate from my work, it's fundamental to how I approach every line of code I write.</p>
+            <p>As a secular humanist committed to reason and evidence-based thinking, I believe that technology should serve human dignity and be built on solid scientific principles, not faith or tradition. My commitment to secular humanism isn't separate from my work, it's fundamental to how I approach every line of code I write.</p>
             
-            <h3>Fairness in Technology</h3>
-            <p>My commitment to fairness taught me to question power structures and recognize how technology can reinforce or challenge them. When I write software, I ask: Who does this serve? Who might it harm? How does it affect marginalized communities?</p>
+            <h3>Reason and Evidence-Based Design</h3>
+            <p>My commitment to secular humanism taught me to question authority and recognize how technology can either serve human well-being or perpetuate harmful systems. When I write software, I ask: What evidence supports this approach? How can we test and verify that this system works as intended? How do we ensure it serves human needs rather than abstract principles?</p>
             
             <p>Around the world, I've seen firsthand how systems use technology to control and surveil people. The same surveillance technologies are used to target marginalized communities. This is why I'm passionate about building systems that empower rather than oppress.</p>
             
-            <h3>Reason and Evidence-Based Design</h3>
-            <p>My commitment to reason isn't just about logic, it's about valuing evidence, reason, and human agency. This perspective influences how I approach software design. I don't build systems based on faith or tradition; I build them based on evidence and human needs.</p>
-            
-            <p>When I design algorithms, I ask: What evidence supports this approach? How can we test and verify that this system works as intended? How do we ensure it serves human well-being rather than abstract principles?</p>
-            
-            <h3>Inclusive Technology</h3>
-            <p>As someone committed to fairness and reason, I understand that oppression affects many groups. Technology can't be truly liberatory if it only serves one group. This means building systems that:</p>
+            <h3>Human-Centered Technology</h3>
+            <p>As a secular humanist, I understand that human well-being should be the primary concern of any technology. Technology can't be truly beneficial if it doesn't serve human needs. This means building systems that:</p>
             <ul>
-                <li><strong>Challenge oppressive structures:</strong> Technology that empowers marginalized communities</li>
-                <li><strong>Promote evidence-based values:</strong> Systems based on reason and evidence, not bias</li>
-                <li><strong>Serve marginalized communities:</strong> Tools that amplify voices that are often silenced</li>
+                <li><strong>Promote human flourishing:</strong> Technology that enhances human capabilities and well-being</li>
+                <li><strong>Respect human autonomy:</strong> Systems that give people control over their own lives</li>
+                <li><strong>Serve human needs:</strong> Tools designed based on evidence and human psychology</li>
                 <li><strong>Resist authoritarian control:</strong> Networks that can't be controlled by any single authority</li>
             </ul>
             
             <h3>The Ethics of Algorithmic Bias</h3>
-            <p>Analysis of technology reveals how algorithms can perpetuate bias and discrimination. Facial recognition systems that fail to recognize certain groups, hiring algorithms that favor certain demographics, social media algorithms that amplify harmful content, these aren't bugs, they're features of systems designed without fairness principles.</p>
+            <p>Secular humanist analysis reveals how algorithms can perpetuate bias and discrimination. Facial recognition systems that fail to recognize certain groups, hiring algorithms that favor certain demographics, social media algorithms that amplify harmful content - these aren't bugs, they're features of systems designed without human-centered principles.</p>
             
             <p>This is why I'm committed to building technology that actively works against bias, not just claims to be neutral. Neutrality in the face of oppression is complicity.</p>
             
-            <h3>Human-Centered Design in Code</h3>
-            <p>My commitment to reason leads me to focus on human well-being and human agency. I don't build systems that serve abstract principles or authorities, I build systems that serve people. This means prioritizing:</p>
+            <h3>Evidence-Based Design in Code</h3>
+            <p>My commitment to secular humanism leads me to focus on evidence-based design and human agency. I don't build systems based on faith or tradition; I build them based on research, testing, and human needs. This means prioritizing:</p>
             <ul>
-                <li><strong>Human autonomy:</strong> Technology that gives people control over their own lives</li>
-                <li><strong>Evidence-based design:</strong> Systems built on research and testing</li>
+                <li><strong>Scientific methodology:</strong> Systems built on research and empirical evidence</li>
+                <li><strong>Human psychology:</strong> Technology that works with how people actually think and behave</li>
                 <li><strong>Inclusive values:</strong> Tools that work for everyone, regardless of background</li>
                 <li><strong>Human dignity:</strong> Technology that respects and enhances human worth</li>
             </ul>
             
-            <h3>What I'm Building</h3>
-            <p>AI/ML systems, distributed computing platforms, and robotics applications can embody these principles. They can be designed to resist bias and control, to protect the privacy of marginalized communities, and to serve human needs rather than corporate or governmental interests.</p>
+            <h3>Secular Humanism and Open Source</h3>
+            <p>Secular humanism and open source share core values: transparency, accessibility, and community. Just as secular humanism makes knowledge available to everyone, open source makes powerful technology accessible to all. Both movements challenge systems of control and promote human autonomy.</p>
             
-            <p><strong>The principle:</strong> Your values shape your technology. Build systems that reflect your commitment to fairness, reason, and human dignity. Don't just write code, write code that makes the world better for everyone.</p>
+            <p>When I contribute to open source projects, I'm not just sharing code, I'm sharing the same values that guide my secular humanist approach: cooperation over competition, transparency over secrecy, and accessibility over exclusivity.</p>
+            
+            <h3>What I'm Building</h3>
+            <p>AI/ML systems, distributed computing platforms, and privacy-preserving technologies can embody secular humanist principles. They can be designed to resist bias and control, to protect human autonomy, and to serve human needs rather than corporate or governmental interests.</p>
+            
+            <p><strong>The principle:</strong> Secular humanism isn't just about personal beliefs, it's about building a world based on reason, evidence, and human dignity. Build technology that reflects your commitment to human flourishing and evidence-based design. Don't just write code, write code that makes the world better for everyone.</p>
         `,
-    tags: ["Fairness", "Ethics", "Software Engineering", "AI/ML"]
+    tags: ["Secular Humanism", "Reason", "Software Engineering", "Evidence-Based Design"]
   }
 ];
 
