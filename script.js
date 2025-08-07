@@ -247,54 +247,54 @@ const blogPosts = [
   },
   {
     id: 6,
-    title: "Secular Humanism and Evidence-Based Technology",
+    title: "Atheism and Evidence-Based Technology",
     date: "2025-07-25",
-    excerpt: "How my commitment to secular humanism, reason, and evidence-based thinking shapes my approach to software engineering and building technology that serves human dignity.",
+    excerpt: "How my atheism and commitment to evidence-based thinking shapes my approach to software engineering and building technology based on reason rather than faith.",
     content: `
-                                     <h2>Secular Humanism and Evidence-Based Technology</h2>
-            <p class="post-meta">July 25, 2025 • Secular Humanism • Reason • Software Engineering • Evidence-Based Design</p>
+                                     <h2>Atheism and Evidence-Based Technology</h2>
+            <p class="post-meta">July 25, 2025 • Atheism • Reason • Software Engineering • Evidence-Based Design</p>
             
-            <p>As a secular humanist committed to reason and evidence-based thinking, I believe that technology should serve human dignity and be built on solid scientific principles, not faith or tradition. My commitment to secular humanism isn't separate from my work, it's fundamental to how I approach every line of code I write.</p>
+            <p>As an atheist committed to evidence-based thinking, I believe that technology should be built on solid scientific principles, not faith or tradition. My atheism isn't just about what I don't believe in, it's about how I approach problems - with skepticism, reason, and a demand for evidence.</p>
             
-            <h3>Reason and Evidence-Based Design</h3>
-            <p>My commitment to secular humanism taught me to question authority and recognize how technology can either serve human well-being or perpetuate harmful systems. When I write software, I ask: What evidence supports this approach? How can we test and verify that this system works as intended? How do we ensure it serves human needs rather than abstract principles?</p>
+            <h3>Evidence-Based Design</h3>
+            <p>My atheism taught me to question authority and demand evidence for claims. When I write software, I apply the same principles: What evidence supports this approach? How can we test and verify that this system works as intended? How do we ensure it's based on reality rather than assumptions?</p>
             
-            <p>Around the world, I've seen firsthand how systems use technology to control and surveil people. The same surveillance technologies are used to target marginalized communities. This is why I'm passionate about building systems that empower rather than oppress.</p>
+            <p>Around the world, I've seen how systems use technology to control and surveil people. The same surveillance technologies are used to target marginalized communities. This is why I'm passionate about building systems that empower rather than oppress.</p>
             
-            <h3>Human-Centered Technology</h3>
-            <p>As a secular humanist, I understand that human well-being should be the primary concern of any technology. Technology can't be truly beneficial if it doesn't serve human needs. This means building systems that:</p>
+            <h3>Reason Over Faith in Technology</h3>
+            <p>As an atheist, I understand that technology should be based on what we can observe, test, and verify. Technology can't be truly beneficial if it's built on faith or tradition rather than evidence. This means building systems that:</p>
             <ul>
-                <li><strong>Promote human flourishing:</strong> Technology that enhances human capabilities and well-being</li>
-                <li><strong>Respect human autonomy:</strong> Systems that give people control over their own lives</li>
-                <li><strong>Serve human needs:</strong> Tools designed based on evidence and human psychology</li>
+                <li><strong>Follow scientific principles:</strong> Technology based on empirical evidence and testing</li>
+                <li><strong>Embrace skepticism:</strong> Systems that question assumptions and demand verification</li>
+                <li><strong>Prioritize reason:</strong> Tools designed based on logic and evidence</li>
                 <li><strong>Resist authoritarian control:</strong> Networks that can't be controlled by any single authority</li>
             </ul>
             
             <h3>The Ethics of Algorithmic Bias</h3>
-            <p>Secular humanist analysis reveals how algorithms can perpetuate bias and discrimination. Facial recognition systems that fail to recognize certain groups, hiring algorithms that favor certain demographics, social media algorithms that amplify harmful content - these aren't bugs, they're features of systems designed without human-centered principles.</p>
+            <p>Atheistic analysis reveals how algorithms can perpetuate bias and discrimination. Facial recognition systems that fail to recognize certain groups, hiring algorithms that favor certain demographics, social media algorithms that amplify harmful content - these aren't bugs, they're features of systems designed without evidence-based principles.</p>
             
             <p>This is why I'm committed to building technology that actively works against bias, not just claims to be neutral. Neutrality in the face of oppression is complicity.</p>
             
             <h3>Evidence-Based Design in Code</h3>
-            <p>My commitment to secular humanism leads me to focus on evidence-based design and human agency. I don't build systems based on faith or tradition; I build them based on research, testing, and human needs. This means prioritizing:</p>
+            <p>My atheism leads me to focus on evidence-based design. I don't build systems based on faith or tradition; I build them based on research, testing, and observable reality. This means prioritizing:</p>
             <ul>
                 <li><strong>Scientific methodology:</strong> Systems built on research and empirical evidence</li>
-                <li><strong>Human psychology:</strong> Technology that works with how people actually think and behave</li>
+                <li><strong>Testable hypotheses:</strong> Technology that can be verified and validated</li>
                 <li><strong>Inclusive values:</strong> Tools that work for everyone, regardless of background</li>
-                <li><strong>Human dignity:</strong> Technology that respects and enhances human worth</li>
+                <li><strong>Reason and logic:</strong> Technology that respects evidence over belief</li>
             </ul>
             
-            <h3>Secular Humanism and Open Source</h3>
-            <p>Secular humanism and open source share core values: transparency, accessibility, and community. Just as secular humanism makes knowledge available to everyone, open source makes powerful technology accessible to all. Both movements challenge systems of control and promote human autonomy.</p>
+            <h3>Atheism and Open Source</h3>
+            <p>Atheism and open source share core values: transparency, skepticism, and community. Just as atheism demands evidence and transparency in claims, open source demands transparency in code. Both movements challenge systems of control and promote reason over faith.</p>
             
-            <p>When I contribute to open source projects, I'm not just sharing code, I'm sharing the same values that guide my secular humanist approach: cooperation over competition, transparency over secrecy, and accessibility over exclusivity.</p>
+            <p>When I contribute to open source projects, I'm not just sharing code, I'm sharing the same values that guide my atheistic approach: evidence over belief, transparency over secrecy, and reason over authority.</p>
             
             <h3>What I'm Building</h3>
-            <p>AI/ML systems, distributed computing platforms, and privacy-preserving technologies can embody secular humanist principles. They can be designed to resist bias and control, to protect human autonomy, and to serve human needs rather than corporate or governmental interests.</p>
+            <p>AI/ML systems, distributed computing platforms, and privacy-preserving technologies can embody atheistic principles. They can be designed to resist bias and control, to protect individual autonomy, and to serve evidence-based needs rather than corporate or governmental interests.</p>
             
-            <p><strong>The principle:</strong> Secular humanism isn't just about personal beliefs, it's about building a world based on reason, evidence, and human dignity. Build technology that reflects your commitment to human flourishing and evidence-based design. Don't just write code, write code that makes the world better for everyone.</p>
+            <p><strong>The principle:</strong> Atheism isn't just about personal beliefs, it's about building a world based on reason, evidence, and skepticism. Build technology that reflects your commitment to evidence-based design and logical thinking. Don't just write code, write code that makes the world better through reason.</p>
         `,
-    tags: ["Secular Humanism", "Reason", "Software Engineering", "Evidence-Based Design"]
+    tags: ["Atheism", "Reason", "Software Engineering", "Evidence-Based Design"]
   }
 ];
 
