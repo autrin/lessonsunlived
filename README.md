@@ -40,29 +40,13 @@ The website includes blog posts covering important topics at the intersection of
 3. **Veganism and Sustainable Technology** - How vegan principles guide technology development for all beings
 4. **Feminism and Inclusive Technology** - How feminist principles shape inclusive and equitable software
 5. **The Joy of Learning: Why I'm Obsessed with Knowledge** - How insatiable curiosity drives personal growth and social change
-6. **Secular Humanism and Evidence-Based Technology** - How secular humanism and reason shape technology design
+6. **Atheism and Evidence-Based Technology** - How atheism and reason shape technology design
 
 Each post explores how code can serve freedom, protect privacy, and resist oppression.
 
 ## 🚀 Projects
 
-The website showcases several key projects from my GitHub portfolio, demonstrating both full-stack development skills and specialized research interests:
-
-1. **ISU Pulse** - Comprehensive Android app for Iowa State University students and teachers. Features schedules, real-time chat, AI integration, weather, and friend suggestions to enhance campus experience. Built with modern mobile development practices and real-time data synchronization.
-
-2. **University Database** - Relational database system for university management implemented in Java and SQL using JDBC. Demonstrates database design principles, connection management, and full-stack application development.
-
-3. **Decentralized Web Lab** - A hands-on sandbox exploring libp2p, IPFS, simple mesh and more. Personal learning playground for peer-to-peer and content-addressed protocols in Python and Rust.
-
-4. **8-Puzzle Solver** - AI-based solver for the classic 8-puzzle problem implementing BFS, IDS, and A* with Manhattan Distance & Linear Conflict heuristics. Achieves 60x speedup through multiprocessing.
-
-5. **Gomoku AI Game** - Intelligent game-playing agent for Five-in-a-Row featuring Alpha-Beta pruning with custom evaluation functions. Advanced AI algorithms with threat detection and pattern recognition.
-
-6. **Toy Blockchain** - Educational implementation of blockchain technology in Python, demonstrating core concepts like blocks, hashing, and distributed consensus mechanisms.
-
-7. **Robotic Chess Player** - Autonomous robotic system using UR10e robot arm with computer vision and Stockfish chess engine. Features AprilTag detection, adaptive difficulty, and safe movement patterns.
-
-8. **Pokeman Game** - Console-based adventure game in C/C++ featuring dynamic world exploration, creature collection, turn-based battles, and inventory management with terminal graphics.
+The website showcases several key projects from my GitHub portfolio, demonstrating both full-stack development skills and specialized research interests.
 
 ## 🎨 Customization
 
@@ -111,7 +95,6 @@ Modify the CSS variables in `styles.css` to customize the color scheme:
 - Firefox
 - Safari
 - Edge
-- Mobile browsers
 
 ## 🤝 Contributing
 
