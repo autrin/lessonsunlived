@@ -37,10 +37,10 @@ The website includes blog posts covering important topics at the intersection of
 
 1. **Building Ethical Technology** - Why technology that serves human dignity is a moral responsibility
 2. **Privacy as a Human Right** - How open source software protects fundamental freedoms
-3. **Compassionate Computing: Building Technology for All** - How ethical principles guide technology development
-4. **Ethical Principles as a Foundation for Technology** - How ethical principles shape compassionate computing
+3. **Veganism and Sustainable Technology** - How vegan principles guide technology development for all beings
+4. **Feminism and Inclusive Technology** - How feminist principles shape inclusive and equitable software
 5. **The Joy of Learning: Why I'm Obsessed with Knowledge** - How insatiable curiosity drives personal growth and social change
-6. **Fairness, Reason, and the Ethics of Technology** - How fairness and evidence-based design shape ethical software
+6. **Secular Humanism and Evidence-Based Technology** - How secular humanism and reason shape technology design
 
 Each post explores how code can serve freedom, protect privacy, and resist oppression.
 
