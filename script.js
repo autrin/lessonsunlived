@@ -600,7 +600,7 @@ function createMatrixRain() {
 }
 
 // Uncomment the line below to enable matrix rain effect
-// createMatrixRain();
+createMatrixRain();
 
 // Add some interactive elements
 document.addEventListener('DOMContentLoaded', function () {
