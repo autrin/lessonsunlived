@@ -1,128 +1,88 @@
-# Autrin - Software Engineer & AI Researcher
+# Autrin Hakimi — Portfolio
 
-A dark-themed, geeky portfolio website showcasing my work in software engineering, AI research, and advocacy for human rights through technology. Passionate about censorship-resistant systems, AI/ML, and distributed computing.
+Personal portfolio site for Autrin Hakimi, a Software Systems Engineer based in Phoenix, AZ. Live at [autrin.github.io/](https://autrin.github.io/).
 
-## 🌟 Features
+## About
 
-### Design & Theme
-- **Dark Geeky Aesthetic**: Matrix-inspired background with neon green, pink, and blue accents
-- **Futuristic Typography**: Orbitron and Share Tech Mono fonts for that tech feel
-- **Interactive Elements**: Glitch effects, circuit board animations, and smooth transitions
-- **Responsive Design**: Works perfectly on desktop, tablet, and mobile devices
+I'm a Software Systems Engineer at ASM America, working across firmware, ML pipelines, robotics, and full-stack application development. I co-authored **HydroGAT** (ACM SIGSPATIAL 2025), a distributed deep learning system for flood prediction trained across 64 NVIDIA A100 GPUs on NERSC's Perlmutter supercomputer.
 
-### Content Sections
-- **Hero Section**: Eye-catching introduction with animated circuit board
-- **Blog Section**: Ethical lessons and teachings with modal popup reading experience
-- **About Section**: Philosophy cards explaining core values (Compassion, Justice, Wisdom, Integrity)
-- **Contact Section**: Form for sharing wisdom and connecting with others
+I'm looking for roles in embedded, robotics, distributed systems, applied ML, or infrastructure — anywhere the work touches real systems and the bar is correctness, not just velocity.
 
-### Interactive Features
-- **Smooth Navigation**: Sticky header with scroll-based navigation highlighting
-- **Blog Modal**: Click any blog post to read the full content in a beautiful modal
-- **Load More**: Pagination system for blog posts
-- **Contact Form**: Functional form with validation and notifications
-- **Typing Effect**: Animated text effects for enhanced user experience
+- **Email**: autrinhakimi@gmail.com
+- **GitHub**: [github.com/autrin](https://github.com/autrin)
+- **LinkedIn**: [linkedin.com/in/autrin](https://www.linkedin.com/in/autrin)
 
-## 🚀 Getting Started
+## Background
 
-1. **Clone or Download** the project files
-2. **Open `index.html`** in your web browser
-3. **Start exploring** the ethical lessons and wisdom shared
+- **B.S. Computer Science**, Iowa State University, May 2025 (Magna Cum Laude, GPA 3.70)
+- **Publication**: Co-author, HydroGAT, ACM SIGSPATIAL 2025 — [paper](https://arxiv.org/html/2509.02481v1) · [code](https://github.com/swapp-lab/HydroGAT)
+- **Tech**: Python, C, C++, JavaScript, SQL, Rust (learning), Flask, PyTorch, Linux, Git
+- **Interests**: Embedded systems, robotics, distributed systems, applied ML, systems programming
 
-No build process or dependencies required - it's a pure HTML/CSS/JavaScript website!
+## Featured Projects
 
-## 📝 Blog Content
+Code lives across separate repositories — the site surfaces them with context. Highlights:
 
-The website includes blog posts covering important topics at the intersection of technology and human rights:
-
-1. **Building Ethical Technology** - Why technology that serves human dignity is a moral responsibility
-2. **Privacy as a Human Right** - How open source software protects fundamental freedoms
-3. **Veganism and Sustainable Technology** - How vegan principles guide technology development for all beings
-4. **Feminism and Inclusive Technology** - How feminist principles shape inclusive and equitable software
-5. **The Joy of Learning: Why I'm Obsessed with Knowledge** - How insatiable curiosity drives personal growth and social change
-6. **Atheism and Evidence-Based Technology** - How atheism and reason shape technology design
-
-Each post explores how code can serve freedom, protect privacy, and resist oppression.
-
-## 🚀 Projects
-
-The website showcases several key projects from my GitHub portfolio, demonstrating both full-stack development skills and specialized research interests.
-
-## 🎨 Customization
-
-### Adding New Blog Posts
-Edit the `blogPosts` array in `script.js` to add your own ethical lessons:
-
-```javascript
-{
-    id: 5,
-    title: "Your Lesson Title",
-    date: "2024-01-20",
-    excerpt: "Brief description of your lesson...",
-    content: `
-        <h2>Your Lesson Title</h2>
-        <p class="post-meta">January 20, 2024 • Ethics • Your Category</p>
-        
-        <p>Your lesson content here...</p>
-    `,
-    tags: ["Ethics", "Your Category", "Your Tags"]
-}
-```
-
-### Changing Colors
-Modify the CSS variables in `styles.css` to customize the color scheme:
-
-```css
-:root {
-    --primary-color: #00ff41;    /* Neon Green */
-    --secondary-color: #ff0080;  /* Neon Pink */
-    --accent-color: #0080ff;     /* Neon Blue */
-    /* ... other variables */
-}
-```
-
-## 🛠️ Technical Details
-
-- **HTML5**: Semantic markup for accessibility
-- **CSS3**: Modern features including Grid, Flexbox, and CSS Variables
-- **Vanilla JavaScript**: No frameworks, pure functionality
-- **Font Awesome**: Icons for enhanced visual appeal
-- **Google Fonts**: Orbitron and Share Tech Mono for typography
-
-## 📱 Browser Support
-
-- Chrome (recommended)
-- Firefox
-- Safari
-- Edge
-
-## 🤝 Contributing
-
-This is a personal project exploring ethical teachings, but if you have ideas for improvements or additional features, feel free to:
-
-1. Fork the project
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🌍 About the Project
-
-This portfolio website showcases my work as a full-stack software engineer and AI researcher, with expertise in web development, distributed systems, and ethical technology. As someone who experienced censorship in Iran and now works as a software engineer in America, I believe technologists have a moral responsibility to use their skills for good.
-
-The dark, geeky aesthetic reflects the intersection of technology and activism, reminding us that every line of code we write either supports freedom or enables control. This project demonstrates both practical software engineering skills and specialized research interests, showing how modern web technologies, AI/ML, and decentralized systems can build a more just and compassionate world.
-
-### About Autrin
-- **Background**: Full-Stack Software Engineer and AI Researcher
-- **Education**: Computer Science major, graduated May 2025
-- **Technical Skills**: Web Development (React, Python), AI/ML, Distributed Systems, Cloud Platforms (Azure), Databases (SQL, NoSQL), DevOps
-- **Interests**: Decentralized systems, web3, distributed systems, Full-stack development, AI/ML, human rights, open source, lifelong learning, robotics, data science
-- **Current Focus**: Building scalable web applications, AI research, and ethical technology solutions such as censorship-resistant systems, and decentralized networks.
-- **Values**: Privacy, freedom, compassion, evidence-based design, intellectual curiosity, and using technology for social good
+- **[HydroGAT](https://github.com/swapp-lab/HydroGAT)** — Spatiotemporal deep learning for flood prediction. Heterogeneous graph + Transformer architecture, distributed training across 64 A100s with 15× speedup. NSE 0.97, KGE 0.96.
+- **[Robotic Chess Player](https://github.com/autrin/robotic-chess-player)** — Autonomous UR10e arm with AprilTag-based perception and Stockfish integration.
+- **[xv6-RISC-V Schedulers](https://github.com/autrin/xv6-riscv)** — Round-Robin and Stride schedulers implemented in the xv6 kernel.
+- **[Multi-Threaded Encryptor](https://github.com/autrin/multi-threaded-text-file-encryptor)** — Five-stage concurrent encryption pipeline in C using pthreads, semaphores, and condition variables.
+- **[Go-Back-N ARQ](https://github.com/autrin/gobackn)** — Reliable transport protocol over TCP with CRC and sliding-window retransmission.
 
 ---
 
-*"The best time to plant a tree was 20 years ago. The second best time is now." - Chinese Proverb*
+## Repository Contents
+
+This repository contains the source for the portfolio site itself: a static three-file site built with plain HTML, CSS, and vanilla JavaScript. No framework, no build step.
+
+### Stack
+
+- HTML5
+- CSS3 (Grid, Flexbox, CSS variables)
+- Vanilla JavaScript (no dependencies)
+- Font Awesome for icons
+- Google Fonts (Orbitron, Share Tech Mono)
+- [Formspree](https://formspree.io/) for contact form handling
+
+### Local Development
+
+Clone and open `index.html` directly in a browser, or serve it locally:
+
+```bash
+git clone https://github.com/autrin/autrin.github.io.git
+cd autrin.github.io
+python3 -m http.server 8000
+# open http://localhost:8000
+```
+
+### File Layout
+```
+.
+├── index.html      # Page structure and content
+├── styles.css      # Theme, layout, responsive design
+├── script.js       # Navigation, contact form, scroll behavior
+└── README.md
+```
+
+### Customization
+
+Color scheme is defined as CSS variables in `styles.css`:
+
+```css
+:root {
+    --primary-color: #4ade80;     /* green */
+    --accent-color: #38bdf8;      /* blue */
+    --bg-dark: #0f1115;
+    /* ... */
+}
+```
+
+Project cards in `index.html` follow a consistent pattern under `<section id="projects">` — duplicate one of the existing `.project-card` blocks to add a new entry.
+
+### Browser Support
+
+Tested in current Chrome, Firefox, Safari, and Edge.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
