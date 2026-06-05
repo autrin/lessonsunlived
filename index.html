@@ -76,12 +76,10 @@
                             <i class="fas fa-water"></i>
                             <h3>HydroGAT</h3>
                         </div>
-                        <p><strong>Published at ACM SIGSPATIAL 2025.</strong> Spatiotemporal deep learning
-                            architecture combining Graph Attention Networks with Transformer encoders for
-                            high-resolution flood prediction. Designed a heterogeneous graph representation modeling
-                            pixel-level hydrological relationships and implemented a distributed training pipeline
-                            scaling to 64 NVIDIA A100 GPUs with 15× speedup. Achieved state-of-the-art performance
-                            (NSE: 0.97, KGE: 0.96).</p>
+                        <p><strong>Published at ACM SIGSPATIAL 2025.</strong> Spatiotemporal model combining a Transformer temporal 
+                            encoder with dual GAT-GRU spatial branches over flow and catchment edges, treating every land and river 
+                            pixel as a graph node. Distributed training across 64 NVIDIA A100 GPUs on NERSC Perlmutter delivered 15×
+                             speedup. State-of-the-art performance against five baselines (NSE: 0.97, KGE: 0.96).</p>
                         <div class="project-links">
                             <a href="https://github.com/swapp-lab/HydroGAT" target="_blank" rel="noopener"
                                 class="project-link">
