@@ -171,6 +171,37 @@
             </div>
             <div class="project-card">
               <div class="project-header">
+                <i class="fas fa-magnifying-glass"></i>
+                <h3>Defect Sense</h3>
+              </div>
+              <p>
+                Two-stage industrial visual inspection on the MVTec AD benchmark: a
+                PatchCore anomaly detector (0.982 mean image AUROC across all 15
+                categories) triages every image, and a locally served vision-language
+                model (Qwen3-VL via Ollama) adjudicates flagged cases — assigning a
+                defect type and writing a grounded inspection report. Built the model
+                boundary defensively: JSON-schema-constrained output, taxonomy
+                validation, bounding-box clamping, and fail-safe parsing. A
+                reproducible evaluation harness measures the real trade-offs —
+                end-to-end precision/recall, defect-type accuracy, per-stage latency,
+                and VLM call rate — including an honest negative result where the
+                two-stage design cut cost but over-suppressed recall. FastAPI
+                inspection console; accelerator-free CI.
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://github.com/autrin/defect-sense"
+                  target="_blank"
+                  rel="noopener"
+                  class="project-link"
+                >
+                  <i class="fab fa-github"></i>
+                  View Code
+                </a>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-header">
                 <i class="fas fa-robot"></i>
                 <h3>Robotic Chess Player</h3>
               </div>
